@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@400;700&display=swap');
+
+* {
+	font-family: "Georama", sans-serif;
+	user-select: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.body {
+    word-wrap: normal;
+}
+.body > h1 {
+    font-size: 15pt;
+	letter-spacing: 1.5pt;
+    padding: 0;
+    margin: 0;
+	margin-left: relative;
+	text-align: center;
+	align-content: center;
+	color: rgba(255,255,255,0.85);
+}
+
+
+
+.ScarNotifyMain {
+	right: 0;
+	position: absolute;
+}
+
+.ScarNotifyBG {
+	width: relative;
+	transform: translateX(100%);
+	display: flex;
+	background-image: linear-gradient(35deg, rgba(210,120,255,0.55) 10%, rgba(25,25,25,0.55) 70%);
+	margin: 5pt;
+	padding: 7pt;
+	
+	border-radius: 11pt;
+	border-left: 3pt solid rgba(0,0,0,0.7);
+	border-bottom: 3pt solid rgba(0,0,0,0.7);
+	animation: slide-in 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6) forwards;
+}
+.ScarNotifyBG p {
+	padding-right: 15pt;
+	font-size: 12pt;
+	letter-spacing: 0.5px;
+	color: rgba(255,255,255,0.85);
+}
+.ScarNotifyBG.slide-out {
+    animation: slide-out 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6) forwards;
+}
+
+.ScarNotifyIcon {
+    display: grid;
+    align-content: center;
+}
+.ScarNotifyIcon2 {
+    padding: 11pt;
+    font-size: 22pt;
+    color: rgba(255,255,255,0.7);
+}
+
+@keyframes slide-in {
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes slide-out {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(110%);
+    }
+}
