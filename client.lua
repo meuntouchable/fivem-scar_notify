@@ -1,3 +1,9 @@
+--//-----------------------------------------\\
+--|| [SCAR] Notify
+--|| meuntouchable#5555 (655378313514057759)
+--|| https://scar-studios.tebex.io
+--\\-----------------------------------------//
+
 function ScarNotify(msg,typ,audio,time)
 	SendNUIMessage({
 		action="ScarNotify->Message",
