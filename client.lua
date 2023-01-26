@@ -27,8 +27,3 @@ RegisterCommand("testo",function(source,args)
 	--ScarNotify("SCAR Scripts on #1","info",true,7000);
 	TriggerEvent("ScarNotify->Trigger","SCAR Scripts on #1","info",true,7000)
 end,false)
-
-
-
-
---exports.freeroamR_notify:Info("Vehicle successfully spawned!");
