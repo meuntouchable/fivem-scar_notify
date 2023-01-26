@@ -9,6 +9,7 @@ function ScarNotify(msg,typ,audio,time)
         }
 	});
 end
+exports("ScarNotify",ScarNotify)
 
 RegisterNetEvent("ScarNotify->Trigger")
 AddEventHandler("ScarNotify->Trigger",function(msg,typ,audio,time)
