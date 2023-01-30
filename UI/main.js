@@ -14,7 +14,7 @@ const titles={
     "error": "Error",
 }
 
-container.setAttribute("style","top: 200pt;");
+container.setAttribute("style","top: 200pt");
 
 
 window.addEventListener("message",function(datas){

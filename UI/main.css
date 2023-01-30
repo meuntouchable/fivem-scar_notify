@@ -35,13 +35,16 @@ body {
 	width: relative;
 	transform: translateX(100%);
 	display: flex;
-	background-image: linear-gradient(35deg, rgba(210,120,255,0.55) 10%, rgba(25,25,25,0.55) 70%);
 	margin: 5pt;
 	padding: 7pt;
 	
-	border-radius: 11pt;
-	border-left: 3pt solid rgba(0,0,0,0.7);
-	border-bottom: 3pt solid rgba(0,0,0,0.7);
+	background: rgba(0,0,0,0.65);
+	border-top-left-radius: 10pt;
+	border-bottom-left-radius: 10pt;
+	border-top: 2pt solid rgba(180,80,255,1);
+	border-left: 3pt solid rgba(180,80,255,1);
+	border-bottom: 2pt solid rgba(180,80,255,1);
+	
 	animation: slide-in 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6) forwards;
 }
 .ScarNotifyBG p {
@@ -59,8 +62,8 @@ body {
     align-content: center;
 }
 .ScarNotifyIcon2 {
-    padding: 11pt;
-    font-size: 22pt;
+    padding: 8pt;
+    font-size: 25pt;
     color: rgba(255,255,255,0.7);
 }
 
